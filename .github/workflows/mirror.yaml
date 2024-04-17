@@ -14,15 +14,22 @@ jobs:
         include:
           - image: adguard/adguardhome
             repo: docker.io
-          - image: saspus/duplicacy-web
+          - image: budibase/budibase
+            repo: docker.io
+          - image: filerun/filerun
+            repo: docker.io
+          - image: jhpyle/docassemble
             repo: docker.io
           - image: kcollins/ignition
             repo: docker.io
           - image: meisnate12/plex-meta-manager
             repo: docker.io
-          - image: n8nio/n8n
-            repo: docker.n8n.io
-
+          - image: nodered/node-red
+            repo: docker.io
+          - image: pawelmalak/flame
+            repo: docker.io
+          - image: saspus/duplicacy-web
+            repo: docker.io
     steps:
       - uses: actions/checkout@v4
       - uses: docker/login-action@v3
