@@ -14,6 +14,8 @@ jobs:
         include:
           - image: adguard/adguardhome
             repo: docker.io
+          - image: b4bz/homer
+            repo: docker.io
           - image: budibase/budibase
             repo: docker.io
           - image: filerun/filerun
