@@ -35,6 +35,8 @@ jobs:
             repo: docker.io
           - image: ghost
             repo: docker.io
+          - image: baserow/baserow
+            repo: docker.io
     steps:
       - uses: actions/checkout@v4
       - uses: docker/login-action@v3
